@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# Remove vyatta generated dnsmasq.d/domain-match,
+# it will be re-created on config load if domain-match is configured,
+# otherwise it should not exist at all
+
+rm -f /etc/dnsmasq.d/domain-match

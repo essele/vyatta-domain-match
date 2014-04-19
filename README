@@ -1,0 +1,4 @@
+This package has Vyatta dnsmasq configuration templates and scripts for 
+matching domain names and populating ipsets (address groups)
+
+See README.md for details.

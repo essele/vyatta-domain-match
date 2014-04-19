@@ -1,0 +1,18 @@
+Source: vyatta-domain-match
+Section: contrib/net
+Priority: extra
+Maintainer: Lee Essen <lee.essen@nowonline.co.uk>
+Standards-Version: 3.9.1
+Build-Depends: debhelper (>= 5), autotools-dev, autoconf
+
+Package: vyatta-domain-match
+Architecture: all
+Depends: vyatta-cfg-system,
+ vyatta-cfg,
+ vyatta-op,
+ dnsmasq,
+ ${misc:Depends}
+Replaces: vyatta-domain-match
+Description: Vyatta domain-match into address groups
+ Vyatta support for matching dns domain lookups and building address groups
+ with the results.

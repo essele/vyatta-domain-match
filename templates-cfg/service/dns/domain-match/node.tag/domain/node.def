@@ -1,0 +1,5 @@
+multi:
+help: domain name to match
+type: txt
+
+syntax:expression: exec "/opt/vyatta/sbin/vyatta_check_domainname.pl $VAR(@)"

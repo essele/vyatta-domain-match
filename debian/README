@@ -1,0 +1,7 @@
+The Debian Package vyatta-domain-match
+--------------------------------------
+
+This package has Vyatta dnsmasq support for matching domain lookups and
+building address groups with the results.
+
+ -- Lee Essen <lee.essen@nowonline.co.uk>  Sat, 19 Apr 2014 05:42:20 UTC

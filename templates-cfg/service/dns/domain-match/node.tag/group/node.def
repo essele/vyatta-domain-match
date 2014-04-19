@@ -1,0 +1,6 @@
+type: txt
+help: firewall group to use
+allowed: local -a array
+	array=(`cli-shell-api listActiveNodes firewall group address-group`)
+	array+=(`/sbin/ipset -L -n | grep ADDRv4`)
+	echo -n ${array[@]}

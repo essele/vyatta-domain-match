@@ -1,0 +1,2 @@
+vyatta-domain-match: file-in-unusual-dir
+vyatta-domain-match: dir-or-file-in-opt
