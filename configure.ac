@@ -7,7 +7,7 @@ m4_define([VERSION_ID], [m4_esyscmd([
 	else
 	    echo -n 2.4
 	fi])])
-AC_INIT([vyatta-conntrack], VERSION_ID, [maintainers@so3group.net])
+AC_INIT([vyatta-domain-match], VERSION_ID, [lee.essen@nowonlin.co.uk])
 
 test -n "$VYATTA_VERSION" || VYATTA_VERSION=$PACKAGE_VERSION
 
@@ -24,9 +24,5 @@ AC_CONFIG_FILES([Makefile])
 
 AC_SUBST(NOSTRIP)
 
-AC_PROG_CC
-AC_PROG_CXX
-AM_PROG_AS
-AM_PROG_CC_C_O
 AC_OUTPUT
 
