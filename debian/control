@@ -10,7 +10,7 @@ Architecture: all
 Depends: vyatta-cfg-system,
  vyatta-cfg,
  vyatta-op,
- dnsmasq (>= 2.64),
+ dnsmasq (>= 2.66),
  ${misc:Depends}
 Replaces: vyatta-domain-match
 Description: Vyatta domain-match into address groups
